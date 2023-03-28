@@ -16,21 +16,5 @@ import java.util.List;
 public class FeatureController {
     @Autowired
     private FeatureService service;
-    private GeoJsonWriter geoJsonWriter;
-    private GeoJsonReader geoJsonReader;
-    @PostMapping
-    public void save(@RequestBody Feature2 feature2){
-        System.out.println(feature2.toString());
-
-    }
-
-    @GetMapping
-    public List<FeatureDTO> findAll(){
-        return service.findAll();
-    }
-
-    @DeleteMapping
-    public void delete(@RequestBody FeatureDTO featureDTO){
-        service.delete(featureDTO);
-    }
+    //em desenvolvimento
 }

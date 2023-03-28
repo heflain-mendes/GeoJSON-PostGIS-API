@@ -7,5 +7,4 @@ public class GeolocalizacaoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(GeolocalizacaoApplication.class, args);
 	}
-
 }
